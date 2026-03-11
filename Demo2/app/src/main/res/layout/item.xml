@@ -4,4 +4,5 @@
     android:layout_height="wrap_content"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:textSize="20dp"
+    android:text="PTIT"
     android:textColor="#009688"/>

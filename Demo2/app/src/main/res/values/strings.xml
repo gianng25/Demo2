@@ -6,4 +6,10 @@
         <item>USA</item>
         <item>Thailand</item>
     </string-array>
+    <string-array name="phep">
+        <item>+</item>
+        <item>-</item>
+        <item>*</item>
+        <item>/</item>
+    </string-array>
 </resources>

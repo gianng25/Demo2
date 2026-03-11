@@ -9,16 +9,19 @@
         android:layout_height="150dp"
         android:src="@drawable/img"/>
     <CheckBox
+        android:id="@+id/ck1"
         android:text="Android"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
     <CheckBox
+        android:id="@+id/ck2"
         android:text="IOS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         />
     <CheckBox
+        android:id="@+id/ck3"
         android:text="Window Mobile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -27,18 +30,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <RadioButton
-            android:id="@+id/nam"
+            android:id="@+id/gnam"
             android:checked="true"
             android:text="Nam"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
         <RadioButton
-            android:id="@+id/nu"
+            android:id="@+id/gnu"
             android:text="Nu"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
     </RadioGroup>
     <RatingBar
+        android:id="@+id/rating"
         android:numStars="4"
         android:rating="1"
         android:stepSize="1"
@@ -52,4 +56,18 @@
         android:id="@+id/sp2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@drawable/mybutton"
+        android:layout_gravity="center"/>
+    <TextView
+        android:id="@+id/kq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="4"
+        android:layout_marginTop="4dp"
+        android:textSize="18dp"/>
 </LinearLayout>

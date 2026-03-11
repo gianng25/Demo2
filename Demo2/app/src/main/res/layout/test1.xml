@@ -2,37 +2,28 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:stretchColumns="*">
+    android:stretchColumns="*"
+    >
     <TableRow>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Example for table"
-            android:layout_span="4"
-            android:layout_marginTop="50dp"
-            android:textAlignment="center"/>
+        <TextView android:text="TableLayout Example"
+            android:background="#E4FF30"
+            android:gravity="center"
+            />
     </TableRow>
     <TableRow>
-        <Button android:text="B1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <Button android:id="@+id/bt1"
+            android:text="Button 1"
             android:layout_column="1"/>
-        <Button android:text="B2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/bt2"
+            android:text="Button 2"/>
     </TableRow>
     <TableRow>
-        <Button android:text="C1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
-        <Button android:text="C2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_column="2"
-            android:layout_marginRight="10dp"/>
-        <Button android:text="C3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"/>
+        <Button android:id="@+id/bt3"
+            android:text="Button 3"/>
+        <Button android:id="@+id/bt4"
+            android:text="Button 4"
+            android:layout_column="2"/>
+        <Button android:id="@+id/bt5"
+            android:text="Button Example"/>
     </TableRow>
 </TableLayout>
