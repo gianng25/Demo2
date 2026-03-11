@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img1"
+        android:src="@drawable/anh"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        />
+    <TextView
+        android:id="@+id/t1"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hinh anh demo"/>
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="80dp"
+        android:layout_height="10dp"
+        android:text="Login"
+        android:gravity="center"
+        android:layout_toRightOf="@id/img1"
+        android:layout_below="@id/img1"
+        android:background="@drawable/rectanglebt"
+        />
+</RelativeLayout>
